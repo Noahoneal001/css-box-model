@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 h1,
 p {
     background-color: #DDE0E3;
@@ -13,11 +19,33 @@ strong {
 
 h1 {
     padding: 50px;
+    border-bottom: 1px solid #5D6063;
 }
 
 p {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+    padding: 20px 0 20px 10px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+strong {
+    margin: 50px;
+}
+
+div {
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    /* Vertical  Horizontal */
+}
+
+body {
+    text-align: center;
+}
